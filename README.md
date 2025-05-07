@@ -6,7 +6,7 @@ This project involves building a lightweight and transparent machine learning mo
 ## Key Features
 - Built a Random Forest Classifier entirely from scratch in Python (no ML libraries).
 - Used a dataset of 651,191 URLs spanning four categories: Benign, Phishing, Malware, and Defacement.
-- Engineered 12 lexical and metadata-based features — including URL length, entropy, symbol counts, and a novel **WHOIS-based domain expiration feature** to assess domain legitimacy.
+- Engineered 12 lexical and metadata-based features including URL length, entropy, symbol counts, and a novel **WHOIS-based domain expiration feature** to assess domain legitimacy.
 - Developed a real-time feature extraction pipeline to support live URL scanning.
 - Achieved strong results: **88.21% accuracy**, with over 83% precision and recall.
 - Future plans include deploying the model as a REST API or browser extension.
